@@ -17,3 +17,8 @@ ul #logo-container{
   height: 250px;
   width: 250px;
 }
+
+.page-title{
+  font-size: 30px;
+  padding-left: 10px;
+}
