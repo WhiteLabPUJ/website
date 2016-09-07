@@ -26,3 +26,30 @@ ul #logo-container{
 .parallax-container{
   height: 300px;
 }
+
+.side-nav li.active {
+  background-color: rgb(13, 71, 161);
+}
+
+.side-nav li.active a{
+  color: rgb(255, 255, 255);
+}
+
+footer.page-footer img{
+  height: 150px;
+  width: 113px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer.page-footer div.row{
+  color: rgb(255, 255, 255);
+}
