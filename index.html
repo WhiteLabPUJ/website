@@ -1,87 +1,130 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
 
     <!-- Mobile Optimization -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Roboto Slab Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Materialize Minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-    <!-- CSS Extra -->
+
+    <title>White Lab - Semillero de Seguridad Inform&aacute;tica</title>
+
+    <!-- Extra -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="imgs/icon.ico" />
+</head>
 
-    <link rel="icon" href="imgs/icon.ico">
-
-    <title>White Lab - Semillero de Seguridad Informatica</title>
-  </head>
-  <body>
+<body>
     <!-- Header -->
     <header>
-      <!-- Top Nav Pagina -->
-      <nav class="top-nav blue darken-4">
-        <div class="container">
-          <!-- Contenedor Movil -->
-          <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only">
-            <i class="material-icons">menu</i>
-          </a>
-          <div class="nav-wrapper">
-            <a class="page-title">Sobre Nosotros</a>
-          </div>
-        </div>
-      </nav>
-      <!-- Barra de Navegacion -->
-      <ul id="nav-mobile" class="side-nav fixed">
-        <li class="logo"><a class="brand-logo center" href="#" id="logo-container"><img src="imgs/logo.png" /></a></li>
-        <li><div class="divider"></div></li>
-        <li class="active"><a href="#!">Inicio</a></li>
-        <li><a href="pags/proyectos.html">Proyectos</a></li>
-        <!--<li><a href="pags/propuestas.html">Propuestas</a></li>-->
-        <li><a href="pags/documentos.html">Documentos</a></li>
-        <li><a href="pags/integrantes.html">Integrantes</a></li>
-      </ul>
+        <!-- Top Nav Pagina -->
+        <nav class="top-nav blue darken-4">
+            <div class="container">
+                <!-- Contenedor Movil -->
+                <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only">
+                    <i class="material-icons">menu</i>
+                </a>
+                <div class="nav-wrapper">
+                    <a class="page-title">Sobre Nosotros</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Barra de Navegacion -->
+        <ul id="nav-mobile" class="side-nav fixed">
+            <li class="logo">
+                <a class="brand-logo center" href="#" id="logo-container"><img src="imgs/logo.png" /></a>
+            </li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li class="active bold"><a href="#!">Inicio</a></li>
+            <li class="bold"><a href="pags/proyectos.html">Proyectos</a></li>
+            <li class="bold"><a href="herramientas.html">Herramientas</a></li>
+            <li class="no-padding">
+                <ul class="collapsible collapsible-accordion">
+                    <li>
+                        <a class="collapsible-header">Documentos<i class="right material-icons">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="pags/documentos/documentos.html">Documentos Principales</a></li>
+                                <li><a href="#!">Peliculas</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="bold"><a href="pags/integrantes.html">Integrantes</a></li>
+        </ul>
     </header>
 
     <main>
-      <!-- Parallax -->
-      <div class="parallax-container">
-        <div class="parallax">
-          <img src="imgs/fotoIntegrantes.png" />
+        <!-- Parallax -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img class="responsive-img" src="imgs/fotoIntegrantes.png" />
+            </div>
         </div>
-      </div>
 
-      <!-- Contenedor -->
-      <div class="container">
-        <h2>¿Quienes Somos?</h2>
-        <p>
-          El semillero de investigación White_Lab está conformado por un grupo de estudiantes que cuentan con el apoyo de varios profesores de la pontificia universidad javeriana. El semillero es un espacio en donde estudiantes interesados buscan investigar, desarrollar y profundizar en los conocimientos relacionados con la seguridad informática.
+        <!-- Contenedor -->
+        <div class="container">
+          <!-- Carousel -->
+          <div class="carousel carousel-slider center" style="height: 400px" data-indicators="true">
+            <div class="carousel-item red white-text" href="#one!">
+              <h2>First Panel</h2>
+              <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+              <h2>Second Panel</h2>
+              <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+              <h2>Third Panel</h2>
+              <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+              <h2>Fourth Panel</h2>
+              <p class="white-text">This is your fourth panel</p>
+            </div>
+          </div>
 
-          Por medio de proyectos y diferentes tipos de actividades, el semillero busca estudiar de forma continua el estado del arte de la seguridad informática en cada una de sus áreas; encontrar fallas o falencias que puedan presentar un riesgo que afecte la seguridad de un sistema, ya que a fin de cuentas, lo más importante para los miembros del semillero es la seguridad de los usuarios y su información.
-        </p>
-        <h2>¿Que Hacemos?</h2>
-        <p>
-          Realizamos actividades propuestas por los integrantes del semillero relacionadas con las áreas de seguridad informática, por otro lado realizamos actividades para nuestro aprendizaje relacionado con los temas propuestos, estas actividades constan de presentaciones, foros entre otras, todas bajo la supervisión del docente a cargo.
-        </p>
-        <h2>Objetivos</h2>
-        <p>
-          El objetivo de White_Lab es generar materia lúdica para la transmisión de buenas prácticas en seguridad de la información a los usuarios utilizando gamification, como objetivos específicos encontramos
-        </p>
-        <ol>
-          <li>
-            Identificar los conocimientos y las buenas prácticas que se quieren reforzar en los usuarios sobre seguridad de la información
-          </li>
-          <li>
-            Identificar las estrategias para reforzar los conocimientos (Mecánica, dinámica y componentes de la actividad)
-          </li>
-          <li>
-            Desarrollar e implementar las estrategias
-          </li>
-        </ol>
+          <!-- Quiénes Somos -->
+          <div id="qs">
+            <h3>¿Qui&eacute;nes Somos?</h2>
+          <p>
+            El semillero de investigación White_Lab está conformado por un grupo de estudiantes que cuentan con el apoyo de varios profesores de la Pontificia Universidad Javeriana. El semillero es un espacio en donde estudiantes interesados buscan investigar, desarrollar y profundizar en los conocimientos relacionados con la seguridad informática y de la informaci&oacute;n.
+
+            Por medio de proyectos y diferentes tipos de actividades, el semillero busca estudiar de forma continua el estado del arte de la seguridad en cada una de sus áreas; encontrar fallas o falencias que puedan presentar un riesgo que afecte la seguridad de un sistema, ya que el objetivo del semillero es proponer t&eacute;cnicas, herramientas, proyectos, etc. que permitan preservar la seguridad de la información de los usuarios.
+          </p>
+          <h3>¿Que Hacemos?</h2>
+          <p>
+            Realizamos actividades propuestas por los integrantes del semillero relacionadas con las áreas de seguridad informática, por otro lado realizamos actividades para nuestro aprendizaje relacionado con los temas propuestos, estas actividades constan de presentaciones, foros entre otras, todas bajo la supervisión del docente a cargo.
+          </p>
+          <h3>Objetivo General</h2>
+          <p>
+            El objetivo de White_Lab es generar material lúdico para la transmisión de buenas prácticas en seguridad de la información a los usuarios utilizando t&eacute;cnicas de gamification.
+          </p>
+          <h3>Objetivos Espec&iacute;ficos</h2>
+
+          <ol>
+            <li>
+              Identificar los conocimientos y las buenas prácticas que se quieren reforzar en los usuarios sobre seguridad de la información
+            </li>
+            <li>
+              Identificar las estrategias para reforzar los conocimientos (Mecánica, dinámica y componentes de la actividad)
+            </li>
+            <li>
+              Desarrollar e implementar las estrategias
+            </li>
+          </ol>
+        </div>
       </div>
     </main>
 
@@ -90,10 +133,10 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5>Contactenos</h5>
+            <h5>Cont&aacute;ctenos</h5>
             <p>
               Profesor Encargado<br />
-              Rafael Paez<br />
+              Rafael P&aacute;ez<br />
               paez-r@javeriana.edu.co<br />
               Tel: (+57 1) 320 8320 Ext. 5391<br />
             </p>
@@ -113,8 +156,7 @@
     <!-- jQuery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Materialize Minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <script src="js/script.js" type="text/javascript"></script>
   </body>
 </html>

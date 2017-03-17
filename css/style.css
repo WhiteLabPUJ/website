@@ -2,10 +2,16 @@ header, main, footer {
   padding-left: 300px;
 }
 
-@media only screen and (max-width : 992px) {
-  header, main, footer {
-    padding-left: 0;
-  }
+main div.container{
+  margin-top: 20px;
+}
+
+nav div.nav-wrapper a{
+  font-size: 32px;
+}
+
+ul.side-nav ul.collapsible a.collapsible-header{
+  padding-left: 32px;
 }
 
 ul #logo-container{
@@ -18,11 +24,6 @@ ul #logo-container{
   width: 250px;
 }
 
-.page-title{
-  font-size: 30px;
-  padding-left: 10px;
-}
-
 .parallax-container{
   height: 300px;
 }
@@ -31,8 +32,8 @@ ul #logo-container{
   background-color: rgb(13, 71, 161);
 }
 
-.side-nav li.active a{
-  color: rgb(255, 255, 255);
+.side-nav .collapsible-body>ul:not(.collapsible)>li.active a, .side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active a{
+  background-color: rgb(13, 71, 161);
 }
 
 footer.page-footer img{
@@ -50,10 +51,24 @@ main {
   flex: 1 0 auto;
 }
 
-main div.container p{
+main div.container #qs p{
   text-align: justify;
 }
 
 footer.page-footer div.row{
   color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+
+  ul.side-nav ul.collapsible a.collapsible-header{
+    padding-left: 16px;
+  }
+
+  nav div.nav-wrapper a{
+    font-size: 24px;
+  }
 }

@@ -9,14 +9,15 @@
     <!-- Roboto Slab Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Materialize Minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-    <!-- CSS Extra -->
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
     <title>Herramientas / White Lab - Semillero de Seguridad Informatica</title>
+    <!-- CSS Extra -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="../imgs/icon.ico"/>
   </head>
   <body>
     <!-- Header -->
@@ -35,14 +36,29 @@
       </nav>
       <!-- Barra de Navegacion -->
       <ul id="nav-mobile" class="side-nav fixed">
-        <li class="logo"><a class="brand-logo center" href="../index.html" id="logo-container"><img src="../imgs/logo.png" /></a></li>
-        <li><div class="divider"></div></li>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="#!">Proyectos</a></li>
-        <!--<li><a href="pags/propuestas.html">Propuestas</a></li>-->
-        <li><a href="documentos.html">Documentos</a></li>
-        <li><a href="integrantes.html">Integrantes</a></li>
-        <li class="active"><a href="herramientas.html">Herramientas</a></li>
+          <li class="logo">
+              <a class="brand-logo center" href="#" id="logo-container"><img src="../imgs/logo.png" /></a>
+          </li>
+          <li>
+              <div class="divider"></div>
+          </li>
+          <li class="bold"><a href="../index.html">Inicio</a></li>
+          <li class="bold"><a href="proyectos.html">Proyectos</a></li>
+          <li class="active bold"><a href="#!">Herramientas</a></li>
+          <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                  <li>
+                      <a class="collapsible-header">Documentos<i class="right material-icons">arrow_drop_down</i></a>
+                      <div class="collapsible-body">
+                          <ul>
+                              <li><a href="documentos/documentos.html">Documentos Principales</a></li>
+                              <li><a href="#!">Peliculas</a></li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </li>
+          <li class="bold"><a href="integrantes.html">Integrantes</a></li>
       </ul>
     </header>
 
@@ -51,7 +67,7 @@
       <div class="container">
         <h3>Herramientas de Trabajo</h3>
         <p>
-          Estas son herramientas que han sido recolectadas y entregadas por el profesor (Rafael Paez).
+          Estas son herramientas que son comunmente utilizadas en el semillero.
         </p>
 
         <table class="striped centered responsive-table">
@@ -63,8 +79,16 @@
           </thead>
           <tbody>
             <tr>
-              <td></td>
-              <td></td>
+              <td>CrypTool 1</td>
+              <td><a href="https://www.cryptool.org/en/ct1-downloads">CrypTool Org</a></td>
+            </tr>
+            <tr>
+              <td>Wireshark</td>
+              <td><a href="https://www.wireshark.org/#download">Wireshark Org</a></td>
+            </tr>
+            <tr>
+              <td>NMap</td>
+              <td><a href="https://nmap.org/download.html">NMap Org</a></td>
             </tr>
           </tbody>
         </table>
@@ -76,10 +100,10 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5>Contactenos</h5>
+            <h5>Cont&aacutectenos</h5>
             <p>
               Profesor Encargado<br />
-              Rafael Paez<br />
+              Rafael P&aacute;ez<br />
               paez-r@javeriana.edu.co<br />
               Tel: (+57 1) 320 8320 Ext. 5391<br />
             </p>
@@ -99,8 +123,7 @@
     <!-- jQuery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Materialize Minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <script src="../js/script.js" type="text/javascript"></script>
   </body>
 </html>

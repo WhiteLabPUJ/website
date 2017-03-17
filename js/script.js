@@ -1,7 +1,7 @@
 $( document ).ready(function(){
    $(".button-collapse").sideNav();
-})
-
-$(document).ready(function(){
-      $('.parallax').parallax();
+   $('.collapsible').collapsible();
+   $('.parallax').parallax();
+   $('.carousel').carousel();
+   $('.carousel.carousel-slider').carousel({fullWidth: true});
 });

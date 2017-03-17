@@ -9,14 +9,15 @@
     <!-- Roboto Slab Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Materialize Minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+    <title>Proyectos / White Lab - Semillero de Seguridad Inform&aacute;tica</title>
     <!-- CSS Extra -->
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
-
-    <title>Proyectos / White Lab - Semillero de Seguridad Informatica</title>
+    <link rel="shortcut icon" type="image/png" href="../imgs/icon.ico"/>
   </head>
   <body>
     <!-- Header -->
@@ -35,13 +36,29 @@
       </nav>
       <!-- Barra de Navegacion -->
       <ul id="nav-mobile" class="side-nav fixed">
-        <li class="logo"><a class="brand-logo center" href="../index.html" id="logo-container"><img src="../imgs/logo.png" /></a></li>
-        <li><div class="divider"></div></li>
-        <li><a href="../index.html">Inicio</a></li>
-        <li class="active"><a href="#!">Proyectos</a></li>
-        <!--<li><a href="pags/propuestas.html">Propuestas</a></li>-->
-        <li><a href="documentos.html">Documentos</a></li>
-        <li><a href="integrantes.html">Integrantes</a></li>
+          <li class="logo">
+              <a class="brand-logo center" href="#" id="logo-container"><img src="../imgs/logo.png" /></a>
+          </li>
+          <li>
+              <div class="divider"></div>
+          </li>
+          <li class="bold"><a href="../index.html">Inicio</a></li>
+          <li class="active bold"><a href="#!">Proyectos</a></li>
+          <li class="bold"><a href="herramientas.html">Herramientas</a></li>
+          <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                  <li>
+                      <a class="collapsible-header">Documentos<i class="right material-icons">arrow_drop_down</i></a>
+                      <div class="collapsible-body">
+                          <ul>
+                              <li><a href="documentos/documentos.html">Documentos Principales</a></li>
+                              <li><a href="#!">Peliculas</a></li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </li>
+          <li class="bold"><a href="integrantes.html">Integrantes</a></li>
       </ul>
     </header>
 
@@ -50,7 +67,7 @@
       <div class="container">
         <h3>Proyectos Desarrollados</h3>
         <p>
-          El Semillero ha trabajado en una serie de proyectos, que dentro de sus ... nose :v
+          El Semillero actualmente est&aacute; trabajando en un proyecto relacionado con Concienciaci&oacute;n (awareness) de la seguridad de la informaci&oacute;n y se desarroll&oacute; un juego para que cualquier usuario comprenda conceptos b&aacute;sicos de criptograf&iacute;a y codificaci&oacute;n.
         </p>
         <table class="striped centered responsive-table">
           <thead>
@@ -65,7 +82,7 @@
             <tr>
               <td>Encoded</td>
               <td>Ricardo Bernal, Alejandro Guayara</td>
-              <td>Juego de Cartas con el objetivo de enseñar cifrado basico</td>
+              <td>Juego de Cartas con el objetivo de enseñar cifrado b&aacute;sico</td>
               <td><a href="">Link Docs</a></td>
             </tr>
           </tbody>
@@ -74,7 +91,7 @@
         <h3>Herramientas Desarrolladas por Nosotros</h3>
         <p>
           Las herramientas acontinuación, han sido desarrolladas enteramente por integrantes del semillero o
-          han sido adaptadas de herramientas de codigo abierto existentes:
+          han sido adaptadas de herramientas de c&oacute;digo abierto existentes:
         </p>
         <table class="striped centered responsive-table">
           <thead>
@@ -82,17 +99,17 @@
               <th>Nombre</th>
               <th>Autor(es)</th>
               <th>Basado en</th>
-              <th>Fecha Finalizacion</th>
+              <th>Fecha Finalizaci&oacute;n</th>
               <th>Link</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Esteganografia en Imagenes</td>
+              <td>Esteganograf&iacute;a en Im&aacute;genes</td>
               <td>Luis Felipe Urdaneta</td>
               <td>Original</td>
               <td>nn/nn/nn</td>
-              <td><a href="https://github.com/WhiteLabPUJ/Proyecto-Esteganografia">Github Proyecto</a></td>
+              <td><a href="https://github.com/WhiteLabPUJ/Proyecto-Esteganograf&iacute;a">Github Proyecto</a></td>
             </tr>
           </tbody>
         </table>
@@ -107,7 +124,7 @@
             <h5>Contactenos</h5>
             <p>
               Profesor Encargado<br />
-              Rafael Paez<br />
+              Rafael P&aacute;ez<br />
               paez-r@javeriana.edu.co<br />
               Tel: (+57 1) 320 8320 Ext. 5391<br />
             </p>
@@ -127,8 +144,7 @@
     <!-- jQuery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Materialize Minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <script src="../js/script.js" type="text/javascript"></script>
   </body>
 </html>

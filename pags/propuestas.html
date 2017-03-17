@@ -9,17 +9,15 @@
     <!-- Roboto Slab Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Materialize Minified CSS -->
-    <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
-    <!-- Para cuando este publicada
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 
     <title>Propuestas / White Lab - Semillero de Seguridad Informatica</title>
     <!-- CSS Extra -->
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="imgs/icon.ico"/>
   </head>
   <body>
     <!-- Header -->
@@ -38,13 +36,29 @@
       </nav>
       <!-- Barra de Navegacion -->
       <ul id="nav-mobile" class="side-nav fixed">
-        <li class="logo"><a class="brand-logo center" href="../index.html" id="logo-container"><img src="../imgs/logo.png" /></a></li>
-        <li><div class="divider"></div></li>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li class="active"><a href="#!">Propuestas</a></li>
-        <li><a href="documentos.html">Documentos</a></li>
-        <li><a href="integrantes.html">Integrantes</a></li>
+          <li class="logo">
+              <a class="brand-logo center" href="#" id="logo-container"><img src="imgs/logo.png" /></a>
+          </li>
+          <li>
+              <div class="divider"></div>
+          </li>
+          <li class="bold"><a href="../index.html">Inicio</a></li>
+          <li class="bold"><a href="proyectos.html">Proyectos</a></li>
+          <!--<li class="active"><a href="pags/propuestas.html">Propuestas</a></li>-->
+          <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                  <li>
+                      <a class="collapsible-header">Documentos<i class="right material-icons">arrow_drop_down</i></a>
+                      <div class="collapsible-body">
+                          <ul>
+                              <li><a href="documentos/documentos.html">Documentos Principales</a></li>
+                              <li><a href="#!">Peliculas</a></li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </li>
+          <li class="bold"><a href="integrantes.html">Integrantes</a></li>
       </ul>
     </header>
 
@@ -82,10 +96,7 @@
     <!-- jQuery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Materialize Minified JavaScript -->
-    <script src="../js/materialize.js" type="text/javascript"></script>
-    <!-- Para cuando este publicada
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <script src="../js/script.js" type="text/javascript"></script>
   </body>
 </html>
